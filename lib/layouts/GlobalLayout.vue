@@ -4,14 +4,14 @@
 
     <TheMain />
 
-    <TheFooter />
+    <!--<TheFooter />-->
   </div>
 </template>
 
 <script>
 import TheHeader from '@theme/components/TheHeader.vue'
 import TheMain from '@theme/components/TheMain.vue'
-import TheFooter from '@theme/components/TheFooter.vue'
+//import TheFooter from '@theme/components/TheFooter.vue'
 
 export default {
   name: 'ThemeMeteorlxy',
@@ -19,7 +19,7 @@ export default {
   components: {
     TheHeader,
     TheMain,
-    TheFooter,
+    //TheFooter,
   },
 }
 </script>
