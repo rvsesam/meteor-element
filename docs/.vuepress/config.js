@@ -86,7 +86,8 @@ module.exports = {
     nav: [
       { text: 'Accueil', link: '/', exact: true },
       { text: 'Notes', link: '/posts/', exact: false },
-      { text:  'Pages', link: '/custom-pages/', exact: false },
+      { text:  'Pages', link: '/custom-pages/index2', exact: false },
+      { text:  'Préférences', link: '/custom-pages/prefs/', exact: false },
     ],
 
     // Enable smooth scrolling or not

@@ -56,6 +56,7 @@
             </a>
           </template>
 
+          <!--
           <el-dropdown
             class="el-dropdown"
             @command="handleCommand"
@@ -72,6 +73,7 @@
               </el-dropdown-item>
             </el-dropdown-menu>
           </el-dropdown>
+          -->
         </div>
       </div>
     </nav>
@@ -119,7 +121,7 @@ export default {
     isExternal (link) {
       return /^(https?:|mailto:|tel:)/.test(link)
     },
-
+    /*
     handleCommand (command) {
       switch (command) {
         case 'a':
@@ -130,6 +132,7 @@ export default {
           this.$message('click on item ' + command)
       }
     },
+    */
   },
 }
 </script>
