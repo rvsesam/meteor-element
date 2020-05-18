@@ -1,8 +1,7 @@
 <template>
   <div
     class="posts-list-item"
-    :class="classe"
-    @changelist="this.classe='short'"
+    :class="{long: classs, short: !classs}"
   >
     <RouterLink
       :to="post.path"
@@ -66,6 +65,12 @@ import IconInfo from '@theme/components/IconInfo.vue'
 export default {
   name: 'PostsListItem',
 
+  computed: {
+    classs () {
+      return this.$themeConfig.notesList.long
+    }
+  },
+
   components: {
     IconInfo,
   },
@@ -76,13 +81,8 @@ export default {
       required: true,
     },
   },
-
-  data: function () {
-    return {
-      classe: 'long',
-    }
-  },
 }
+
 </script>
 
 <style lang="stylus">
