@@ -56,6 +56,14 @@ git push -u origin master                      // pushes the commit-ed changes i
 
 6) You can see the success message in the Terminal. You can also verify by refreshing the GitHub repo online.
 
+Testé:
+Creer une branche dans VS Code
+creer la branche dans Github
+modif dans VS Code
+copier modif dans Github avec:
+git push origin <local-branch-name>:<remote-branch-name>
+
+
 ## Supprimer un repo sur GitHub:
 
 Dans le repo -> onglet Settings, défiler vers le bas -> Danger Zone -> Delete this repo
